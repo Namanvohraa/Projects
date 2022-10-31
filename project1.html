@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Clock</title>
+    <link href="../Projects/737400.jpg" rel="icon">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,13 +24,19 @@
     </script>
     <style>
         body{
-           background-image:url(../545909.jpg);
+           background-image:url(../1079546.png);
+           width: 1345px;
+           height: 900px;
+        }
+        #time{
+          text-shadow: 3px 1px;
+          color:brown
         }
     </style>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light" >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
@@ -90,12 +97,12 @@
     </nav>
     <div class="container my-4">
       <div class="jumbotron">
-        <h1 class="display-4">Current time is: <span id="time"></span></h1>
-        <p class="lead">We have got you covered.</p>
-        <hr class="my-4" />
-        <p>We are here to show you time of different countries.</p>
+        <h1 class="display-4" style="color:bisque;">Current time is: <span id="time"></span></h1>
+        <p class="lead"style="color:bisque;">We have got you covered.</p>
+        <hr class="my-4" style="color:bisque;" />
+        <p style="color:bisque;">We are here to show you time of different countries.</p>
         <p>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
               Browse More
             </a>
             <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
